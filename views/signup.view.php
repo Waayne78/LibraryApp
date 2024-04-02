@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
-
     <title>Bookly</title>
 </head>
 <body>
 
 <div class="signup-container">
     <form class="signup-form" method="POST">
+        <h1>SIGNUP</h1>
         <input type="text" name="name" placeholder="Name">
         <input type="email" name="email" placeholder="Example@gmail.com">
         <input type="password" name="password" placeholder="Password">
