@@ -13,7 +13,7 @@ include "../partials/header.php";
     </form>
 </div>
 
-<?php if (isset ($error)): ?>
+<?php if (isset($error)): ?>
     <p class="error">
         <?= $error ?>
     </p>
