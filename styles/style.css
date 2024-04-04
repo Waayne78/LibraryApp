@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Euclid;
-    src: url(../Euclid\ Circular\ B\ Light.ttf);
+    src: url(../font/Euclid\ Circular\ B\ Light.ttf);
 }
 
 
@@ -167,10 +167,17 @@ button {
 .container {
     align-items: center;
     height: 100vh;
-    width: 100vw;
     overflow: hidden;
+    
 
 }
+
+
+.error {
+    text-align: center;
+    color: red;
+}
+
 
 .signup-form,
 .login-form,
@@ -235,20 +242,24 @@ li {
 
 }
 
-
+.logo {
+    width: 140px;
+    height:90px;
+    margin-right: 80px;
+   
+}
 
 .books {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 10px;
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    
+
 }
 
 .book {
@@ -260,9 +271,11 @@ li {
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #fca72c;
+    border: 1px solid #fca72c;
     color: white;
     cursor: pointer;
+    gap: 2rem;
+    color : rgb(142, 111, 111);
 }
 
 .bookss {

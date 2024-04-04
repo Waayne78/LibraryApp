@@ -9,7 +9,7 @@
 <body>
 
 <div class="signup-container">
-    <form class="signup-form" method="POST">
+    <form class="signup-form" method="POST" action="../controllers/signup.php">
         <h1>SIGNUP</h1>
         <input type="text" name="name" placeholder="Name">
         <input type="email" name="email" placeholder="Example@gmail.com">

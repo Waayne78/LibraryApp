@@ -13,7 +13,6 @@ include "../partials/header.php";
     </form>
 </div>
 
-<!-- Si $error existe, on l'affiche dans un <p> -->
 <?php if (isset ($error)): ?>
     <p class="error">
         <?= $error ?>
@@ -23,6 +22,6 @@ include "../partials/header.php";
 
 <?php
 
-// include "partials/footer.php";
+include "partials/footer.php";
 
 ?>

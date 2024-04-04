@@ -1,7 +1,6 @@
 <?php
 
 ob_start();
-
 require_once '../views/signup.view.php';
 include '../config/pdo.php';
 include '../utils/functions.php';
@@ -33,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
                     if ($result) {
-                        header('Location: success');
+                        header('Location: ../views/login.view.php');
                         ob_end_flush();
 
                     } else {
@@ -42,12 +41,12 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 }
 
             } else {
-                $error = "L'email n'est pas au bon format";
+                $error = " The email is not valid !";
             }
         } else {
-            $error = "Les mots de passe sont différents, veuillez renseigner les memes mot de passe";
+            $error = "Passwords do not match !";
         }
     } else {
-        $error = "Veuillez remplir tous les champs !";
+        $error = "Please fill all the fields !";
     }
 }

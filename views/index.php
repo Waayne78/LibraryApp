@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav>
-            <ul>    
+            <ul>
                 <li>Home</li>
                 <li> <button class="search-btn">Search</button><input type="text" placeholder="Search for a book"></li>
                 <li><a href="signup.view.php">Signup</a></li>
@@ -58,21 +58,15 @@
     </div>
     </div>
     <div class="bookss">
-            <ul class="books">
-                <li></li>
-            </ul>
-        </div>
-    <footer>
-        <div class="footer-content">
-            <p> &copy;Bookly 2024 </p>
-            <ul>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="contact.view.php">Contact</a></li>
-                <li><a href="#">Mention légales</a></li>
-            </ul>
-        </div>
+        <ul class="books">
+            <li></li>
+        </ul>
+    </div>
 
-    </footer>
+    <?php
+
+    include '../partials/footer.php';
+
+    ?>
 
 </body>
